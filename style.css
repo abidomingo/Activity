@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+}
+#mywebsite{
+    background-color: white;
+    font-family: Arial;
+}
+#landing{
+    padding: 200px;
+    background-image: url(../img/landing-img.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    opacity: 0.8;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    text-shadow: 1px 1px #222222;
+}
+p{
+    color: white;
+    font-size: 12px;
+    text-shadow: 1px 1px #222222;
+}
+
+#blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    align-items: center;
+}
+#blog h2{
+    width: 200%;
+    font-size: 300;
+    text-align: center;
+    margin-bottom: 30px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(25% - 10px);
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border: 450px;
+    box-sizing: border-box;
+    width: calc(40% - 20px);
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 2px,2px,5px rgb(2, 2, 2);
+    margin: 5px;
+}
+div img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 200px;
+    object-position: center;
+}
+div h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: -100px;
+    color: rgb(0, 0, 0);
+}
+div p{
+    color: black;
+    text-shadow: none;
+    font-size: small;
+    margin-left: 30px;
+}
+div a {
+    margin-top: 20px;
+    margin-left: -150px;
+    padding: 5px 10px;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover, div:hover{
+    color: white;
+    background: rgb(109, 109, 109);
+}
