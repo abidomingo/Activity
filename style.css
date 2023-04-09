@@ -1,8 +1,12 @@
 *{
+    margin: 5px;
+}
+body{
     margin: 0px;
+    background-color: rgb(228, 228, 228);
 }
 #mywebsite{
-    background-color: white;
+    background-color: rgb(228, 228, 228);
     font-family: Arial;
 }
 #landing{
@@ -12,6 +16,7 @@
     background-position: center;
     text-align: center;
     opacity: 0.8;
+    margin: 0px;
 }
 h1{
     color: white;
@@ -78,7 +83,50 @@ div a {
     text-decoration: none;
     border-radius: 5px;
 }
-a:hover, div:hover{
+#blog a:hover, div:hover{
     color: white;
     background: rgb(109, 109, 109);
+}
+#services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    align-items: center;
+}
+#services h2{
+    width: 200%;
+    font-size: 300;
+    text-align: center;
+    margin-bottom: 30px;
+}
+ul{
+    display: inline;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+ul li{
+    display: inline-block;
+    background-color: #ffffff;
+    padding:30px 60px;
+    margin: 10px;
+    border: 450px;
+    text-align: center;
+    
+}
+ul li:hover{
+    background: #eb6a43;
+}
+ul li:hover ul{
+    display: block;
+}
+ul li ul{
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+ul li ul li{
+    background: #555;
+    display: block;
 }
